@@ -9,6 +9,7 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
+    color: rgb(67, 72, 81)
 }
 hr {
     border-top: rgb(246, 248, 249);
@@ -19,6 +20,27 @@ hr {
     margin-left: 1cm;
 }
 
+.done {
+    color: rgb(57, 202, 176);
+}
+
+.not_done{
+    color: red;
+}
+
+.cerchio {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: small;
+}
+
+.paragrafo {
+    padding: 5px;
+}
 #logo {
     padding: 10px;
 }
@@ -46,6 +68,9 @@ hr {
     display: inline-block;
     padding: 5px;
     border-radius: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
     }
 
 #box_add_section {
@@ -53,4 +78,7 @@ hr {
     border: 1px solid lightgrey;
     padding: 4px;
     border-radius: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
