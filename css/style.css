@@ -8,12 +8,13 @@
 
 
 body {
-    font-family: "Noto Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(67, 72, 81)
 }
 hr {
     border-top: rgb(246, 248, 249);
-    margin-top: 10px
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .rientro {
@@ -35,11 +36,27 @@ hr {
     border: 1px solid;
     border-radius: 50%;
     text-align: center;
-    font-size: small;
+    vertical-align: middle;
+    font-size: 8pt;
+    margin-bottom: 3px;
 }
 
 .paragrafo {
-    padding: 5px;
+    padding: 5px 0;
+    line-height: 2;
+}
+
+.forma_etichetta{
+    display:inline-block;
+    color: white;
+    font-size: 8pt;
+    border-radius: 20px;
+    width: 70px;
+    text-align: center;
+}
+
+.etichetta_azzurra {
+background-color:  rgb(20, 170, 245);
 }
 #logo {
     padding: 10px;
@@ -58,15 +75,15 @@ hr {
     width: 70%;
     background-color: white;
     margin: auto;
-    margin-top: 1cm;
-    padding: 10px 0px 0px 0px;
-    border-radius: 7px 7px 0 0
+    margin-top: 0.5cm;
+    padding: 10px 0px 30px 0px;
+    border-radius: 7px
 }
 
 #box_add_task {
     background-color: rgb(20, 170, 245);
     display: inline-block;
-    padding: 5px;
+    padding: 7px;
     border-radius: 5px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -76,9 +93,29 @@ hr {
 #box_add_section {
     display: inline-block;
     border: 1px solid lightgrey;
-    padding: 4px;
+    padding: 6px;
     border-radius: 5px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
+}
+
+#etichetta_viola {
+    background-color: rgb(171, 93, 230);
+}
+
+#etichetta_verde {
+    background-color: rgb(57, 202, 176);
+}
+
+#etichetta_arancione {
+    background-color: orange;
+}
+
+#etichetta_fuxia {
+    background-color: rgb(236, 74, 157);
+}
+
+#etichetta_lime {
+    background-color: rgb(163, 209, 22);
 }
