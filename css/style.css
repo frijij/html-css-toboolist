@@ -11,6 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(67, 72, 81)
 }
+
 hr {
     border-top: rgb(246, 248, 249);
     margin-top: 10px;
@@ -25,7 +26,7 @@ hr {
     color: rgb(57, 202, 176);
 }
 
-.not_done{
+.not_done {
     color: red;
 }
 
@@ -46,8 +47,8 @@ hr {
     line-height: 2;
 }
 
-.forma_etichetta{
-    display:inline-block;
+.forma_etichetta {
+    display: inline-block;
     color: white;
     font-size: 8pt;
     border-radius: 20px;
@@ -56,8 +57,9 @@ hr {
 }
 
 .etichetta_azzurra {
-background-color:  rgb(20, 170, 245);
+    background-color: rgb(20, 170, 245);
 }
+
 #logo {
     padding: 10px;
 }
@@ -88,7 +90,7 @@ background-color:  rgb(20, 170, 245);
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-    }
+}
 
 #box_add_section {
     display: inline-block;
